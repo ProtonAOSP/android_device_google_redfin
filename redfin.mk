@@ -14,10 +14,8 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_redfin.mk \
-    $(LOCAL_DIR)/redfin.mk \
+# Inherit AOSP product configuration
+$(call inherit-product, device/google/redfin/aosp_redfin.mk)
 
-COMMON_LUNCH_CHOICES := \
-    aosp_redfin-userdebug \
-    redfin-userdebug \
+# Remove AOSP prefix from product name
+PRODUCT_NAME := redfin
