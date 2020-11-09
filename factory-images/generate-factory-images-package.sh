@@ -15,11 +15,11 @@
 # limitations under the License.
 
 source ../../../common/clear-factory-images-variables.sh
-BUILD=6291635
+BUILD=eng.$USER
 DEVICE=redfin
 PRODUCT=redfin
-VERSION=rd1a.200312.002
-SRCPREFIX=signed-
-BOOTLOADER=r3-0.3-6265493
-RADIO=g7250-00014-200305-B-6264959
+VERSION=rd1a.201105.003.c1
+SRCPREFIX=../../../../out/target/product/redfin/obj/PACKAGING/target_files_intermediates/
+BOOTLOADER=r3-0.3-6776358
+RADIO=g7250-00016-200911-B-6826885
 source ../../../common/generate-factory-images-common.sh
