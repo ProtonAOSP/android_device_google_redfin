@@ -48,6 +48,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 $(call inherit-product, device/google/redfin/device-redfin.mk)
 $(call inherit-product-if-exists, vendor/google_devices/redfin/proprietary/device-vendor.mk)
 $(call inherit-product-if-exists, vendor/google_devices/redfin/prebuilts/device-vendor-redfin.mk)
+$(call inherit-product-if-exists, vendor/google/redfin/redfin-vendor.mk)
 
 # Exclude features that are not available on AOSP devices.
 PRODUCT_COPY_FILES += \
