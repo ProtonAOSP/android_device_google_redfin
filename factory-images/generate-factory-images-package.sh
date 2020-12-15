@@ -18,8 +18,8 @@ source ../../../common/clear-factory-images-variables.sh
 BUILD=eng.$USER
 DEVICE=redfin
 PRODUCT=redfin
-VERSION=rq1a.201205.011
+VERSION=rq1d.201205.012.a1
 SRCPREFIX=../../../../out/target/product/redfin/obj/PACKAGING/target_files_intermediates/
 BOOTLOADER=r3-0.3-6873951
-RADIO=g7250-00003-201016-B-6910083
+RADIO=g7250-00003-201111-B-6965230
 source ../../../common/generate-factory-images-common.sh
