@@ -213,7 +213,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Keyboard height ratio and bottom padding in dp for portrait mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.height_ratio=1.2 \
-    ro.com.google.ime.kb_pad_port_b=10
 
 # Bluetooth Tx power caps for redfin
 PRODUCT_COPY_FILES += \
