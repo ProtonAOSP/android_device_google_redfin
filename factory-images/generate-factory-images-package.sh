@@ -18,7 +18,7 @@ source ../../../common/clear-factory-images-variables.sh
 BUILD=eng.$USER
 DEVICE=redfin
 PRODUCT=redfin
-VERSION=rq1a.210105.003
+VERSION=rq1a.210205.004
 SRCPREFIX=../../../../out/target/product/redfin/obj/PACKAGING/target_files_intermediates/
 BOOTLOADER=r3-0.3-6873951
 RADIO=g7250-00003-201016-B-6910083
