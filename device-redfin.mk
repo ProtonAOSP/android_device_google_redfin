@@ -18,15 +18,15 @@ PRODUCT_HARDWARE := redfin
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
     ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
-        LOCAL_KERNEL := device/google/redfin-kernel/Image.lz4
+        LOCAL_KERNEL := device/google/redbull-kernel/Image.lz4
     else
-        LOCAL_KERNEL := device/google/redfin-kernel/vintf/Image.lz4
+        LOCAL_KERNEL := device/google/redbull-kernel/vintf/Image.lz4
     endif
 else
     LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
-PRODUCT_VENDOR_KERNEL_HEADERS := device/google/redfin-kernel/sm7250/kernel-headers
+PRODUCT_VENDOR_KERNEL_HEADERS := device/google/redbull-kernel/sm7250/kernel-headers
 
 include build/make/target/product/iorap_large_memory_config.mk
 include device/google/redbull/device-common.mk
@@ -213,6 +213,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Keyboard height ratio and bottom padding in dp for portrait mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.height_ratio=1.2 \
+    ro.com.google.ime.kb_pad_port_b=10
 
 # Bluetooth Tx power caps for redfin
 PRODUCT_COPY_FILES += \
