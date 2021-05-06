@@ -65,5 +65,5 @@ PRODUCT_MODEL := Pixel 5
 
 # Match stock product info
 PRODUCT_OVERRIDE_INFO := true
-PRODUCT_OVERRIDE_FINGERPRINT := google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys
-PRODUCT_OVERRIDE_DESC := redfin-user 11 RQ2A.210405.005 7181113 release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys
+PRODUCT_OVERRIDE_DESC := redfin-user 11 RQ2A.210505.003 7255357 release-keys
