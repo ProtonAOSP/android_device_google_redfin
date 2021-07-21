@@ -15,7 +15,7 @@
 # limitations under the License.
 
 source ../../../common/clear-factory-images-variables.sh
-BUILD=eng.$USER
+BUILD=eng.android-build
 DEVICE=redfin
 PRODUCT=redfin
 VERSION=rq3a.210705.001
