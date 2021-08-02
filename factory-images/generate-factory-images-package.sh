@@ -18,7 +18,7 @@ source ../../../common/clear-factory-images-variables.sh
 BUILD=eng.android-build
 DEVICE=redfin
 PRODUCT=redfin
-VERSION=rq3a.210705.001
+VERSION=rq3a.210805.001.a1
 SRCPREFIX=../../../../out/target/product/redfin/obj/PACKAGING/target_files_intermediates/
 BOOTLOADER=r3-0.3-7241848
 RADIO=g7250-00132-210419-B-7294132
