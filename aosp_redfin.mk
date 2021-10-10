@@ -75,3 +75,6 @@ PRODUCT_BRAND := google
 PRODUCT_NAME := aosp_redfin
 PRODUCT_DEVICE := redfin
 PRODUCT_MODEL := Pixel 5
+
+# Match stock build fingerprint
+PRODUCT_OVERRIDE_FINGERPRINT := google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys
