@@ -18,7 +18,7 @@ source ../../../common/clear-factory-images-variables.sh
 BUILD=eng.nobody
 DEVICE=redfin
 PRODUCT=redfin
-VERSION=spb5.210812.002
+VERSION=sp1a.211105.004
 SRCPREFIX=../../../../out/target/product/coral/obj/PACKAGING/target_files_intermediates/
 BOOTLOADER=r3-0.4-7617468
 RADIO=g7250-00147-210811-B-7631450
