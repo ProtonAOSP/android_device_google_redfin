@@ -24,8 +24,6 @@ else
 
   include device/google/redbull/BoardConfig-common.mk
 
-  DEVICE_MANIFEST_FILE += device/google/redfin/vendor.google.wireless_charger@1.3-service-vendor.xml
-
   # Testing related defines
   #BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/r3-setup.sh
 
